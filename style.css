@@ -622,6 +622,7 @@ header button:hover{
     }
 
     .landing-pg-buttons button{
+        width: 155px;
         height: 48px;
         font-size: 16px;
         font-weight: 700;
@@ -631,7 +632,6 @@ header button:hover{
         margin-top: 37px;
         margin-left: 10px;
         font-size: 16px;
-
     }
 
     .keyboard-image img{
