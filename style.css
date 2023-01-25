@@ -527,6 +527,10 @@ header button:hover{
         overflow-x: hidden;
     }
 
+    main{
+        overflow-x: hidden;
+    }
+
     /* remeber to remove if it doesnt work */
     /* .new-webpage{
         margin-left: auto;
