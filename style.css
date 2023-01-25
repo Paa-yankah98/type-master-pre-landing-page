@@ -1,0 +1,711 @@
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+h4,h3{
+    color: #162542;
+}
+
+p,footer{
+    color: #7B8BAD;
+}
+
+.new-webpage{
+    /* background-color: red; */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    /* background-color: aqua; */
+    margin-top: 5%;
+  
+}
+
+header img{
+    width: 40px;
+    height: 40px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+header button{
+    background-color: #E8EFF2;
+    border: none;
+    border-radius: 8px;
+    width: 175px;
+    height: 58px;
+    color: #162542;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+header button:hover{
+    background-color: #162542;
+    cursor: pointer;
+    color: #ffffff; 
+}
+
+/* landing page */
+
+.landing-page{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    /* background-color: #162542; */
+    width: 80%;
+}
+
+.typography{
+    justify-content: space-between;
+    width: 399px;
+    /* background-color: aquamarine; */
+}
+
+.typography h4{
+    /* display: flex; */
+    position: relative;
+    font-weight: 900;
+    font-size: 56px;
+    color: #162542;
+    line-height: 56px;
+}
+
+.typography p{
+    font-size: 18px;
+    font-weight: 500;
+    color: #7b8bad;
+    margin-top: 8%;
+}
+
+.landing-pg-buttons{
+    margin: auto;
+    display: flex;
+}
+
+.landing-pg-buttons button{
+    width: 175px;
+    height: 58px;
+    background-color: #f16718;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    font-weight: 700;
+    margin-top: 25px;
+    color: white;
+}
+
+.landing-pg-buttons button:hover{
+    cursor: pointer;
+    /* color: #ffffff; */
+    background-color: #FF9B62;
+}
+
+.landing-pg-buttons p{
+    font-weight: 700;
+    font-size: 16px;
+    margin-left: 25px;
+    margin-top: 40px;
+    margin-bottom: auto;
+}
+
+.keyboard-image img{
+    width: 539px;
+    height: 480px;
+    border-radius: 20px;
+}
+
+/* middle page */
+.keyboards{
+    display: flex;
+    /* background-color: #f16718; */
+    margin-top: 30px;
+    margin-left: 10%;
+    width: 80%;
+    justify-content: space-between;   
+}
+
+.keyboard-with-glass img{
+    width: 455px;
+    height: 480px;
+    border-radius: 20px;
+    margin-right: 90px;
+}
+
+.gradient-keyboard{
+    margin-right: auto;
+}
+
+.typography2{
+    /* background-color: aqua; */
+    width: 245px;
+    height: 300px;
+    margin-top: auto;
+    margin-bottom: auto;   
+}
+
+.typography2 h4{
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 36px;
+    margin-top: 15px;
+}
+
+.typography2 p{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    margin-top: 30px;
+}
+
+/* lastpage */
+.last-pg{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 25px;
+    /* justify-content: space-between; */
+    /* background-color: aquamarine; */
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    margin-top: 10%;
+}
+
+/* .subcontnrs{
+    display: flex;
+    color: red;
+} */
+
+.subcont{
+    width: auto;
+    
+}
+
+.orange-icon{
+    display: flex;
+    background-color: #f16718;
+    width: 65px;
+    height: 65px;
+    justify-content: center;
+    border-radius: 16px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.orange-icon img{
+    display: flex;
+    width: auto;
+    height: auto;
+    align-items: center;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.bold-header h3{
+    margin-top: 15%;
+    margin-bottom: auto;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 28px; 
+    width: 255px; 
+}
+
+.bold-header p{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    width: 255px;
+    height: 130px;
+    margin-bottom: auto;
+    margin-top: 15%;
+}
+
+.grey-figure{
+    position: absolute;
+    width: 255px;
+    height: 236px;
+    left: -155px;
+    top: 144%;
+}
+
+.grey-figure2{
+    position: absolute;
+    width: 255px;
+    height: 240px;
+    left: 1250px;
+    top: 29%;
+}
+
+/* footer */
+.final-cont{
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    text-align: center;
+    /* background-color: #7b8bad; */
+    margin-top: 20%;
+    /* color: #162542; */
+    margin-bottom: 3%;
+    /* font-weight: 700; */
+}
+
+/* MEDIA QUERY FOR DESKTOP VIEW */
+/* @media only screen and (min-width: 1365px) and (max-width: 1440px){
+    border{
+        overflow-x: hidden;
+    }
+
+    .grey-figure2{
+        display: absolute;
+        top: 20%;
+        left: 1225px;
+    }
+
+    .grey-figure{
+        display: absolute;
+        left: -200px;
+        top: 113%;   
+    }
+
+    header{
+    margin: auto;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+    }
+
+    .landing-page{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    width: 85%;
+    }
+
+    .keyboards{
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+        width: 85%;
+        justify-content: space-between;   
+    }
+
+    .keyboard-with-glass img{
+        width: 455px;
+        height: 480px;
+        border-radius: 20px;
+        margin-right: 100px;
+    }
+
+    .last-pg{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        column-gap: 27px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 85%;
+        margin-top: 10%;
+    }
+} */
+
+/* MEDIA QUERY FOR TABLET */
+@media only screen and (min-width: 768px) and (max-width: 1114px){
+    body{
+        overflow-x: hidden;
+        /* width: 700px; */
+    }
+
+    /* .new-webpage{
+        margin-left: auto;
+        margin-right: auto;
+        width: auto;
+    } */
+
+    /* main{
+        margin: 40px 40px 40px 40px;
+    } */
+
+    .grey-figure{
+        display: none;
+    }
+
+    .grey-figure2{
+        display: none;
+    }
+
+    header{
+        /* background-color: aqua; */
+        /* margin-left: 50px; */
+        margin-right: auto; 
+        width: 90%;
+    }
+
+   /* landing page */
+
+    .landing-page{
+        /* background-color: aqua; */
+        margin-right: auto;
+        margin-left: auto;
+        width: 90%;
+    }
+
+    .typography{
+        /* width: 360px; */
+        /* display: inline; */
+        /* justify-content: space-between; */
+        margin-left: auto;
+        margin-right: auto;
+        width: 350px;
+        /* background-color: red; */
+    }
+
+    .typography h4{
+        width: 100%;
+        height: 96px;
+        font-size: 48px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .typography p{
+        font-weight: 500;
+        font-size: 16px;
+        width: auto;
+        height: 78px;
+        margin-top: 27px;
+        margin-left: auto;
+        /* margin-right: auto; */
+    }
+
+    .landing-pg-buttons{
+        width: 344px;
+        height: 58px;
+        column-gap: 42px;
+        margin-right: 125px;
+    }
+
+    .landing-pg-buttons button{
+        width: 600px;
+        height: 58px;
+        margin-top: 2px;
+        margin-left: auto;
+        margin-right: auto;  
+    }
+
+    .landing-pg-buttons p{
+        font-size: 16px;  
+        width: 500px;
+        /* margin-right: auto; */
+        margin-left: auto;
+        margin-top: 18px;
+        left: 400px;
+    }
+
+    .keyboard-image{
+        width: 478px;
+        height: 425px;
+        margin-left: 50px;
+    }
+
+    .keyboard-image img{
+        width: 478px;
+        height: 425px;  
+        margin-right: auto;
+        margin-right: auto;
+ 
+    }
+
+    /* middle page */
+    .keyboards{
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 30px;
+        margin-bottom: auto;
+        height: 600px;
+        width:90%;
+    }
+
+    .gradient-keyboard{
+        margin-right: 30px;  
+    }
+
+    .gradient-keyboard img{
+        width: 214px;
+        height: 320px;
+    }
+
+    .keyboard-with-glass img{
+        width: 445px;
+        height: 320px;
+        margin-right: 60px;
+
+    }
+    .typography2{
+        display: inline;
+        position: absolute;
+        width: 689px;
+        height: 108px;
+        margin-top: 400px;
+        margin-left: auto;
+        margin-right: auto;
+        
+        /* margin-right: 200px; */
+    }
+    
+    .typography2 h4{
+        width: 255px;
+        height: 108px;
+        margin-bottom: -110px;
+        
+    }
+
+    .typography2 p{
+        display: flex;
+        /* position: absolute; */
+        width: 398px;
+        height: 78px;
+        margin-left: 290px;
+        margin-top: 20px;
+    }
+
+    /* last page */
+    .last-pg{
+        /* background-color: red; */
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 5rem;
+        row-gap: 5rem;
+        margin-left: auto;
+        margin-right: auto;
+        width: auto;
+    }
+
+    .subcont{
+        width: 90%;
+        margin-left: auto;
+        margin-left: auto;
+    }
+
+    .final-cont{
+        /* background-color: red; */
+        width: auto;
+        margin-right: auto;
+        margin-left: auto;
+        justify-content: center;
+        /* height: 26px; */
+    }
+
+}
+
+
+
+/* media query for mobile */
+@media only screen and (min-width: 300px) and (max-width: 428px) {
+    body{
+        overflow-x: hidden;
+    }
+
+    /* remeber to remove if it doesnt work */
+    /* .new-webpage{
+        margin-left: auto;
+        margin-right: auto;
+        align-self: center;
+    } */
+
+    .grey-figure{
+        display: none;
+    }
+
+    .grey-figure2{
+        display: none;
+    }
+
+    header{
+        /* margin: auto; */
+        /* margin: 15px 15px 0 15px; */
+        margin-left: auto;
+        margin-right: auto;
+        /* width: auto; */
+        width: 327px;
+        height: 48px;
+    }
+    
+    /* header img{
+        width: 40px;
+        height: 40px;
+    } */
+
+    header button{
+        width: 155px;
+        height: 48px;
+        font-size: 16px;
+    }
+
+    .landing-page{
+        display: inline;
+
+    }
+
+    .typography{
+        display: grid;
+        grid-template-columns: 1fr ;
+        /* margin: auto; */
+        margin-top: 4rem;
+        width: 327px;
+        height: 286px;
+        margin-left: auto;
+        margin-right: auto;   
+    }
+
+    .typography h4{
+        font-weight: 900;
+        font-size: 48px;
+    }
+
+    .typography p{
+        margin-top: 1rem;
+        width: 327px;
+        height: 78px;
+        font-weight: 500;
+        font-size: 16px;
+    }
+
+    .landing-pg-buttons{
+        margin-top: -10px;
+    }
+
+    .landing-pg-buttons p{
+        margin-top: 43px;
+    }
+
+    .keyboard-image img{
+        margin-top: 3rem;
+        width: 372px;
+        height: 331px;
+        margin-left: 1.7rem;
+    }
+
+    /* middle page */
+    .keyboards{
+        /* margin-left: -1rem; */
+        /* background-color: aqua; */
+        width: 23rem;
+        height: auto;
+        margin-left: auto;
+        margin-right: 20%;
+        align-items: center;
+    }
+
+    .gradient-keyboard img{
+        width: 129px;
+        height: 193px;
+        border-radius: 20px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .keyboard-with-glass img{
+        width: 220px;
+        height: 193px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .typography2{
+        display: inline;
+        position: absolute;
+        width: 100%;
+        /* background-color: chartreuse; */
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 40rem;
+        left: auto;
+        right: auto;
+        /* left: 3rem; */
+        /* align-self: center;     */
+    }
+
+    .typography2 h4{
+        /* background-color: #f16718; */
+        width: 255px;
+        height: 108px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+
+    .typography2 p{
+        /* background-color: aqua; */
+        width: 327px;
+        height: 104px;
+        margin-left: auto;
+        text-align: center;
+        margin-right: auto;
+    }
+
+    /* last page */
+    .last-pg{
+        display: grid;
+        grid-template-columns: 1fr;
+        row-gap: 64px;
+        margin-top: 30rem;
+        /* align-items: center; */
+         /* justify-content: center; */
+
+    }
+/* 
+    .subcont{
+     
+        background-color: aqua;
+    } */
+
+    .orange-icon{
+        margin-left: auto;
+        margin-right: auto;        
+    }
+
+    .orange-icon img{
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .bold-header h3{
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+
+    .bold-header p{
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        /* line-height: 26px; */
+        font-weight: 500;
+    }
+
+   
+}
+
