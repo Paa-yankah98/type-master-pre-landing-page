@@ -534,10 +534,10 @@ header button:hover{
         width: auto;
     } */
 
-    main{
+    /* main{
         overflow-x: hidden;
         width: auto;
-    }
+    } */
 
     /* remeber to remove if it doesnt work */
     /* .new-webpage{
@@ -610,6 +610,8 @@ header button:hover{
 
     .landing-pg-buttons p{
         margin-top: 43px;
+        margin-left: 2.5px;
+
     }
 
     .keyboard-image img{
