@@ -529,10 +529,12 @@ header button:hover{
 
     .new-webpage{
         overflow-x: hidden;
+        width: auto;
     }
 
     main{
         overflow-x: hidden;
+        width: auto;
     }
 
     /* remeber to remove if it doesnt work */
