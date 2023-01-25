@@ -334,6 +334,7 @@ header button:hover{
 @media only screen and (min-width: 768px) and (max-width: 1114px){
     body{
         overflow-x: hidden;
+        width: auto;
         /* width: 700px; */
     }
 
@@ -344,7 +345,7 @@ header button:hover{
     } */
 
     /* main{
-        margin: 40px 40px 40px 40px;
+        width: auto;
     } */
 
     .grey-figure{
@@ -525,12 +526,13 @@ header button:hover{
 @media only screen and (min-width: 300px) and (max-width: 428px) {
     body{
         overflow-x: hidden;
-    }
-
-    .new-webpage{
-        overflow-x: hidden;
         width: auto;
     }
+
+    /* .new-webpage{
+        overflow-x: hidden;
+        width: auto;
+    } */
 
     main{
         overflow-x: hidden;
