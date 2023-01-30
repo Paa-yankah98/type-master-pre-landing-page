@@ -151,11 +151,23 @@ header button:hover{
     width: 455px;
     height: 480px;
     border-radius: 20px;
-    margin-right: 90px;
+    margin-right: 50px;
 }
 
 .gradient-keyboard{
-    margin-right: auto;
+    background-color: #F16718;
+    /* mix-blend-mode: multiply; */
+    width: 255px;
+    height: 480px;
+    border-radius: 20px;
+    opacity: 0.9;
+}
+
+.gradient-keyboard img{
+    width: 255px;
+    height: 480px;
+    border-radius: 20px;
+    mix-blend-mode: multiply;
 }
 
 .typography2{
@@ -458,6 +470,8 @@ header button:hover{
 
     .gradient-keyboard{
         margin-right: 30px;  
+        width: 214px;
+        height: 320px;
     }
 
     .gradient-keyboard img{
@@ -540,6 +554,8 @@ header button:hover{
     main{
         overflow-x: hidden;
         width: auto;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     /* .new-webpage{
@@ -650,6 +666,11 @@ header button:hover{
         margin-left: auto;
         margin-right: 20%;
         align-items: center;
+    }
+
+    .gradient-keyboard{
+        width: 129px;
+        height: 193px;
     }
 
     .gradient-keyboard img{
