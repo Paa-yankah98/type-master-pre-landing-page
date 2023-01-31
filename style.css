@@ -144,6 +144,7 @@ header button:hover{
     margin-top: 30px;
     margin-left: 10%;
     width: 80%;
+    column-gap: 30px;
     justify-content: space-between;   
 }
 
@@ -263,8 +264,9 @@ header button:hover{
 }
 
 .grey-figure img{
-    position: static;
-    top: 144%;  
+    position: absolute;
+    /* top: 144%;   */
+    /* display: none; */
 }
 
 .grey-figure2{
@@ -278,6 +280,7 @@ header button:hover{
 .grey-figure2 img{
     position: static;
     top: 30%;
+    /* display: none; */
    
     
 }
@@ -298,7 +301,7 @@ header button:hover{
 
 
 /* MEDIA QUERY FOR Extra extra large DESKTOP VIEW */
-/* @media only screen and (min-width: 1280px) and (max-width: 1440px){
+@media only screen and (min-width: 1115px) and (max-width: 1440px){
     border{
         overflow-x: hidden;
     }
@@ -306,13 +309,21 @@ header button:hover{
     .grey-figure2{
         position: absolute;
         top: 19%;
-        left: -40px;
+        left: 95%;
+    }
+
+    .grey-figure2 img{
+        position: static;
     }
 
     .grey-figure{
         position: absolute;
-        left: -30px;
+        left: -15%;
         top: 113%;   
+    }
+
+    .grey-figure{
+        position: none;
     }
 
     header{
@@ -357,7 +368,7 @@ header button:hover{
         width: 85%;
         margin-top: 10%;
     }
-} */
+}
 
 /* MEDIA QUERY FOR TABLET */
 @media only screen and (min-width: 768px) and (max-width: 1114px){
