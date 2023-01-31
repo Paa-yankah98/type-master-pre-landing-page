@@ -292,8 +292,8 @@ header button:hover{
 .grey-figure2 img{
     position: absolute;
     /* width: 255px; */
-    /* height: 240px; */
-    left: 1250gpx;
+    height: 240px;
+    left: 1250px;
     /* top: 29%; */
 }
 
