@@ -254,32 +254,34 @@ header button:hover{
     margin-top: 15%;
 }
 
-/* .grey-figure{
-    position: absolute;
-} */
-
-.grey-figure img{
+.grey-figure{
     position: absolute;
     width: 255px;
     height: 240px;
     left: -155px;
-    top: 144%;  
+    top: 144%;
 }
 
-/* .grey-figure2{
+.grey-figure img{
     position: absolute;
-    height: auto;
-    width: auto;
-    top: 30%;
-} */
+    /* width: 255px;
+    height: 240px;
+    left: -155px;
+    top: 144%;   */
+}
 
-.grey-figure2 img{
+.grey-figure2{
     position: absolute;
     width: 255px;
     height: 240px;
     left: 1250px;
-    top: 30%;
-    /* bottom: auto; */
+    top: 30%; 
+}
+
+.grey-figure2 img{
+    position: absolute;
+   
+    
 }
 
 /* footer */
