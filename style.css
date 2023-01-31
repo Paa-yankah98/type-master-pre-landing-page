@@ -254,15 +254,33 @@ header button:hover{
     margin-top: 15%;
 }
 
-.grey-figure{
+/* .grey-figure{
     position: absolute;
     width: 255px;
-    height: 236px;
+    height: 240px;
     left: -155px;
     top: 144%;
+    border-radius: 20px;
+} */
+
+.grey-figure img{
+    position: absolute;
+    width: 255px;
+    height: 240px;
+    left: -155px;
+    top: 144%;
+    
 }
 
-.grey-figure2{
+/* .grey-figure2{
+    position: absolute;
+    width: 255px;
+    height: 240px;
+    left: 1250px;
+    top: 29%;
+} */
+
+.grey-figure2 img{
     position: absolute;
     width: 255px;
     height: 240px;
