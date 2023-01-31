@@ -254,39 +254,47 @@ header button:hover{
     margin-top: 15%;
 }
 
-.grey-figure{
+/* .grey-figure{
+    background-color: red;
     position: absolute;
     top: 152%;
-    /* width: 255px;
+    width: auto;
+    height: auto;
+    top: 144%;
+    left: -5px;
+    width: 255px;
     height: 240px;
     left: -155px;
-    top: 144%;
-    border-radius: 20px; */
-}
+    
+} */
 
 .grey-figure img{
     position: absolute;
     width: 255px;
-    height: 240px;
+    height: auto;
     left: -155px;
     top: 144%;
     
 }
 
 .grey-figure2{
+    background-color: red;
     position: absolute;
     /* width: 255px;
     height: 240px;
     left: 1250px; */
-    top: 31%;
+    /* height: auto;
+    width: auto; */
+    top: 30%;
 }
 
 .grey-figure2 img{
     position: absolute;
-    width: 255px;
-    height: 240px;
-    left: 1250px;
-    top: 29%;
+    /* width: 255px; */
+    /* height: 240px; */
+    left: 1115px;
+    top: -5px;
+    /* top: 29%; */
 }
 
 /* footer */
@@ -309,18 +317,18 @@ header button:hover{
     }
 
     .grey-figure2{
-        display: absolute;
+        position: absolute;
         top: 20%;
         left: 1225px;
     }
 
     .grey-figure{
-        display: absolute;
+        position: absolute;
         left: -200px;
         top: 113%;   
-    }
+    } */
 
-    header{
+    /* header{
     margin: auto;
     width: 85%;
     margin-left: auto;
