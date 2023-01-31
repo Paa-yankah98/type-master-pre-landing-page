@@ -310,25 +310,27 @@ header button:hover{
     /* font-weight: 700; */
 }
 
-/* MEDIA QUERY FOR DESKTOP VIEW */
-/* @media only screen and (min-width: 1365px) and (max-width: 1440px){
+
+
+/* MEDIA QUERY FOR Extra extra large DESKTOP VIEW */
+/* @media only screen and (min-width: 1280px) and (max-width: 1440px){
     border{
         overflow-x: hidden;
     }
 
     .grey-figure2{
         position: absolute;
-        top: 20%;
-        left: 1225px;
+        top: 19%;
+        left: -40px;
     }
 
     .grey-figure{
         position: absolute;
-        left: -200px;
+        left: -30px;
         top: 113%;   
-    } */
+    }
 
-    /* header{
+    header{
     margin: auto;
     width: 85%;
     margin-left: auto;
