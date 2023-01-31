@@ -263,11 +263,8 @@ header button:hover{
 }
 
 .grey-figure img{
-    position: absolute;
-    /* width: 255px;
-    height: 240px;
-    left: -155px;
-    top: 144%;   */
+    position: static;
+    top: 1%;  
 }
 
 .grey-figure2{
@@ -279,7 +276,7 @@ header button:hover{
 }
 
 .grey-figure2 img{
-    position: absolute;
+    position: static;
    
     
 }
